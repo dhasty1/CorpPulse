@@ -47,8 +47,8 @@ def rag_pipeline() -> Pipeline:
     
     # Answer user question, focusing on the most relevant document
     template = """
-    Briefly answer the question exclusively based on the following documents. If you can't locate an answer, reply "I can't seem to deduce that from the documents provided. Please rephrase.":
-
+    Briefly analyze the following documents to answer the question. Highlight trends, patterns, or significant insights drawn from considering the information as a whole:
+    
     {% for document in documents[:1] %}   
         {{ document.content }}
     {% endfor %}
