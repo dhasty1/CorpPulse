@@ -21,4 +21,4 @@ This application serves as a chatbot leveraging OpenAI's GPT 3.5-Turbo LLM to qu
 
 ### Try it out
 
-Ask the chatbot "Describe Alcoa's performance in 2021 with metrics" and watch as the magic happens!
+Ask the chatbot "Identify macroeconomic trends in financial companies" and watch as the magic happens!
