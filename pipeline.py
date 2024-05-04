@@ -49,7 +49,7 @@ def rag_pipeline() -> Pipeline:
     template = """
     Briefly analyze the following documents to answer the question. Highlight trends, patterns, or significant insights drawn from considering the information as a whole:
     
-    {% for document in documents[:1] %}   
+    {% for document in documents %}   
         {{ document.content }}
     {% endfor %}
     Question: {{question}}
