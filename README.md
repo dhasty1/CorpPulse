@@ -1,3 +1,13 @@
+---
+title: CorpPulse
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.34.0
+app_file: app.py
+pinned: false
+---
 ## CorpPulse
 
 You can view this project live on [Streamlit Community Cloud](https://corppulse.streamlit.app/)!
