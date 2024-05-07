@@ -2,6 +2,9 @@
 
 You can view this project live on [Streamlit Community Cloud](https://corppulse.streamlit.app/)!
 
+### API Key
+You will need to sign up for an OpenAI API key at (OpenAI)[https://openai.com/index/openai-api]. Use this in place of `OPENAI_KEY = os.getenv("OPENAI_KEY")` within pipeline.py to access the LLM.
+
 ### Installation
 To install this application on your local machine, clone the repository and install the necessary dependencies.
 
